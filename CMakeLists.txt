@@ -21,3 +21,10 @@ message(STATUS "CMAKE_CXX_COMPILER: ${CMAKE_CXX_COMPILER}")
 message(STATUS "CMAKE_C_COMPILER: ${CMAKE_C_COMPILER}")
 
 
+message(" ")
+message("Note:  this project uses git submodules in the source tree.")
+message("       if you haven't already, run the following command from")
+message("       the project's root directory:")
+message(" ")
+message("           git submodule update --init") 
+message("\n")
