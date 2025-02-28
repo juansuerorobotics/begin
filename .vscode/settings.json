@@ -1,0 +1,14 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "Unix Makefiles",
+    "cmake.cmakePath": "/usr/bin/cmake",
+    "cmake.configureArgs": [
+        "-DCMAKE_BUILD_TYPE=DEBUG",
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+        "--log-level=VERBOSE",
+        // "--trace"
+    ],
+    // "cmake.configureArgs": [
+    //     "--log-level=VERBOSE"
+    // ]
+}
