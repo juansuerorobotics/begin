@@ -3,8 +3,10 @@
     "cmake.generator": "Unix Makefiles",
     "cmake.cmakePath": "/usr/bin/cmake",
     "cmake.configureArgs": [
-        "-DCMAKE_BUILD_TYPE=DEBUG",
+        "-DCMAKE_BUILD_TYPE=Debug",
         "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+        "-DCMAKE_C_COMPILER=/usr/bin/aarch64-linux-gnu-gcc",
+        "-DCMAKE_CXX_COMPILER=/usr/bin/aarch64-linux-gnu-g++",
         "--log-level=VERBOSE",
         // "--trace"
     ],
